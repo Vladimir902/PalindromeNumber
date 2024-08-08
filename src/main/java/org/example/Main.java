@@ -21,7 +21,7 @@ public class Main {
             res = temp % 10;   //extracting last digit from the number
             reverse = reverse * 10 + res;  //adding the extracted digit for reverse order
             temp /= 10;  //removing last digit
-        };
+        }
 
 
         if (x == reverse)  //checking if the user input is the same as the reverse variable
