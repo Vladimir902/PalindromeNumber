@@ -20,7 +20,7 @@ public class Main {
         {
             res = temp % 10;   //extracting last digit from the number
             reverse = reverse * 10 + res;  //adding the extracted digit for reverse order
-            temp /= 10;  //removing last digit
+            temp = temp / 10;  //removing last digit
         }
 
 
